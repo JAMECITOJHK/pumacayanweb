@@ -3,36 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pumacayan</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        section {
-            padding: 1rem;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto 1rem;
-        }
-    </style>
+    <title>Sitio Arqueológico de Pumacayan</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Conexión con el archivo CSS -->
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Pumacayan</h1>
+        <h1>🌄 Bienvenido al Sitio Arqueológico de Pumacayan 🌟</h1>
+        <nav>
+            <ul>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#visita">¡Planifica tu visita!</a></li>
+            </ul>
+        </nav>
     </header>
-    <section>
-        <h2>¿Qué es Pumacayan?</h2>
-        <p>Pumacayan es un sitio lleno de historia y cultura ubicado en el corazón de nuestra ciudad. Representa un lugar de importancia histórica y arqueológica.</p>
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSExIVFhUXFxcYFxgYGBcaGhUXGBUYGBgXFhgdHSggGBolHRgXITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGhAQGislHSUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLf/AABEIANQA7QMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAADAAIEBQYBB//EAEUQAAIBAgQDBQUDCgUEAgMBAAECEQADBBIhMQVBUQYTImFxFDKBkaEjUrEHJDNCYnLB0eHwFkNTorJzgpKTwvElY6MV/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwQF/8QALBEAAgIABAUDAwUBAAAAAAAAAAECEQMhMUESE1Fh8AQUoWJxkTJSgeHxIv/aAAwDAQACEQMRAD8A2aiKRak1MNdTA8NRFNR6ejUBKRqOjVEV6PbNUhICih3cMOVdBoimgID2jQGWrd9qrby60IdsNU7v9KrRTGunnQpYtiaH31QTepou0KT+9pF6hd7TlehCQWNOW5TEp2SgDJfipKYnzqHApZaAsVxXnTlvTVO7EV2xdNKBdrdoNy7UcXoFR7l6iRCeHqO71DbE00YmqCU71Gu3Kh8S4ktlO8ecsqugnV2Cj6kV2481BQnuUFmogpMKFJDCmsKJXGqFBAU6KRrgoAyiiKaArU/NVISlNOLUC01Hy0IdJmuHDE0lqZauUKVVyyRUS6hmtN3amo+IwMjSpYM8yUlQ1ZtgoEmo3dVQDS2OtEW10prWqSvFQBApFNZ6Ru0xnmgHrcFFV5qIqiuzFUE825oWWDSw92i3DJoBmamGumK6XHKhATrQRb51IIpjihTP9sB+aXD93I3/AI3FP8KustVPbK3+Y4nr3Ln0gT/CrZTULsNK04W67NJrlAGIppooaiKk8qpkiMKFtU5rNMyULZGBpwajtZoLWqAPaeiG7pUVKkIQRBqEB9/FdGMpzYYHao5wXnVIWFniIqSMeKpPZT1prW2FKLZaYjFioJvyaEtsmnLh6osJ3tR77VI9lNOTBE1CkBTRESrC3g4qRYw3UVAQ7GG50VrFTbigbVGz0AEWYrgqUwBGlAZKAG4pqrFEdaG1UHGau0zMKYblAV3alc2ExA62bn/A1Iw/uIeqr+AofF2mxeHW1c/4GucPvg2rZ/YT/iKm5rYkzTS9Md6GWoQv7uEIphssKs8dj7VkZrtxUH7R39BuaynE+3drVbNsv+03hX4cz8YrDxEtTccKUtC4rhrAY7jt+8QyuUjcJIU+pneot1C5zF7hPM5j+POsPHWyO8fSN6s9KAp3dzXnVpHBEXbuX/qOI+uv0qTlYklnYyN87z/y1qc/sX2nc3Jw/lTe6isNDAH7Rx+0XuR8s/8AGmXkZlOe6wjZu8c6Hc6mB9anP7D2fc3qPFFzzXnlsMEk3WHmrtB6HU6T0+tK5euBZN9ljl3jZT6sTP8AfOrz+xPadz0e2o6U72YGvL7oyoH7zKYG9xshP72/x+lGNxwAwvPy/wAxgPgZpz+w9n3+D0pcGKKuHA5V5PxDMcpa7IJ/zHbT9zXU+VceyUj7Qqp3Jcg+QXkfj9ac/sX2n1fB63lHSurFeVm22xusFjfOcxPTXSKGcGATnZQJ8JGjH96dJ9KnP7FXpO/werkUO6YEkgCvLRZy63LgUTCwxA8pnn5CnPh9Jd1z8p9yeWh1PLnTn9h7Tv8AH9norXxyIPxoeesH7KqKCz21c6SwAQnoEnb4z51KvJbtJLXLaMYGZ4yk84UkDbaPjNOf2D9Iv3fBshilG5HxIrj4odR8xWMvizbyTctpmO1zKS3khkQduo8q7xDEWLRTPct2wxjKwkt6H9Uba7VOe+g9rH9xqnxA6j5igDGodnU+jA/xrOcTxli1kFx1XNMKZJbzBGw89qbi8Th0yl7qhWAyo0a/tTEkbbmKvPfQe1j1NG2IX7w+YoIxCkwGBPQEE/Ks9xPH4azk7xwM2ioRI/e0GnqfhXOJ8Ts21DMzfaABIBIECQyke6ec86qxm3oSXpkk8yVx/iBU91lnOhynzJiPSKJwPHI6W7YPiFq2T01QGPXb5is12i4oYtu8EkAqVJGaAfFl3GpGlV+AxGU2ihyyJJGninKQfPQfStcd5o8rTiqZ6O9xVZVJ1bb4U5gBuRrWA4nfvLlOYka5TOw0mec1AbGXTu7H4mBPKsPGa2MHsuM7F4N1jushLZi6k526hnMlgfOqLGfk/s2nz2bTPagBrSPluLEy6O36YnSVciNcp5He0q3SO6nJbmKvdmuHXMHc9nTJkRiSpdbqsqE5bubxhtpVta8t42L2FuvhGZiuhUt72UgGJnY6dede7cW4Ol4MZa3cKlO8SA2UgjK06Oup0YECZEHWsR294KbvdHEWxntyq3Lchbi7idcyka+Ez7xgmjSKpy6nmA4hcCGzmOUmep6wD08qjWuJ3RaazmOXNmiTPmJ6c4rUvwG3906eZqNd4RYUy0KT1aJ+tYyNKb6lFe4rcNpbRaUBn+k9N9Kj38fcNsWc32Y1C6fKd430860Frh
+
+    <main>
+        <section id="historia">
+            <h2>Historia del Sitio</h2>
+            <p>Pumacayan es un importante sitio arqueológico que destaca por su riqueza cultural e histórica. Ubicado en los Andes peruanos, este lugar alberga vestigios de antiguas civilizaciones que dejaron un legado invaluable para el mundo.</p>
+        </section>
+
+        <section id="ubicacion">
+            <h2>¿Dónde está Pumacayan?</h2>
+            <p>El sitio se encuentra cerca de Huamanga, Ayacucho, Perú. Es un lugar rodeado de hermosos paisajes naturales y lleno de historia.</p>
+        </section>
+
+        <section id="visita">
+            <h2>Planifica tu visita</h2>
+            <p>¡Ven y descubre la magia de Pumacayan! El sitio está abierto al público todos los días de la semana. Ideal para excursiones, sesiones fotográficas, y para aprender sobre nuestra herencia cultural.</p>
+            <button onclick="alert('¡Gracias por tu interés en Pumacayan!')">¡Quiero saber más!</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sitio Arqueológico de Pumacayan. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
